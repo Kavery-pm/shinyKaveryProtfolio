@@ -87,7 +87,7 @@ const useStyles = makeStyles((t) => ({
             color: pinkThemeDark.secondary,
         },
         [t.breakpoints.down('sm')]: {
-            width: '100%',
+            width: '80%',
             padding: '0 25px',
             height: '55px',
         },

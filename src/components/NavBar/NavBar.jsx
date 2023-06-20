@@ -32,6 +32,9 @@ const useStyles = makeStyles((t) => ({
             fontSize: '2rem',
         },
     },
+    navLink: {
+        textDecoration: 'none',
+      },
     MuiDrawer: {
         padding: '0em 1.8em',
         width: '14em',
@@ -197,7 +200,7 @@ const handleDrawerClose = () => {
                 <div onClick={handleDrawerClose}>
                     <div className='navLink--container'>
                         <Fade left>
-                            <NavLink
+                            <NavLink className={classes.navLink}
                                 to='/'
                                 smooth={true}
                                 spy='true'
@@ -215,7 +218,7 @@ const handleDrawerClose = () => {
                         </Fade>
 
                         <Fade left>
-                            <NavLink
+                            <NavLink className={classes.navLink}
                                 to='/#about'
                                 smooth={true}
                                 spy='true'
@@ -231,7 +234,7 @@ const handleDrawerClose = () => {
                         </Fade>
 
                         <Fade left>
-                            <NavLink
+                            <NavLink className={classes.navLink}
                                 to='/#education'
                                 smooth={true}
                                 spy='true'
@@ -249,7 +252,7 @@ const handleDrawerClose = () => {
                         </Fade>
 
                         <Fade left>
-                            <NavLink
+                            <NavLink className={classes.navLink}
                                 to='/#skills'
                                 smooth={true}
                                 spy='true'
@@ -267,7 +270,7 @@ const handleDrawerClose = () => {
                         </Fade>
 
                         <Fade left>
-                            <NavLink 
+                            <NavLink className={classes.navLink}
                                 to='/#projects'
                                 smooth={true}
                                 spy='true'
@@ -285,7 +288,7 @@ const handleDrawerClose = () => {
                         </Fade>
 
                         <Fade left>
-                            <NavLink
+                            <NavLink className={classes.navLink}
                                 to='/#contacts'
                                 smooth={true}
                                 spy='true'

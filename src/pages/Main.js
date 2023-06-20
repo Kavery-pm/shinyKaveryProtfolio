@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet"
 import { headerData } from '../data/headerData'
 import NavBar from "../components/NavBar/NavBar";
+import Landing from "../components/Landing/Landing";
 const Main = ()=>{
     return (
         <>
@@ -8,6 +9,7 @@ const Main = ()=>{
         <title>{headerData.name} - Porfolio</title>
         </Helmet>
         <NavBar/>
+        <Landing/>
         </>
     )
 }

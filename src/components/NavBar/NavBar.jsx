@@ -267,7 +267,7 @@ const handleDrawerClose = () => {
                         </Fade>
 
                         <Fade left>
-                            <NavLink className={classes.drawerItem}
+                            <NavLink 
                                 to='/#projects'
                                 smooth={true}
                                 spy='true'

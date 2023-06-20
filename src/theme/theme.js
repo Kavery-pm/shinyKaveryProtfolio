@@ -1,4 +1,4 @@
-
+import { pinkThemegirl } from "./images.js"
 export const pinkThemeDark = {
     type: 'dark',
     primary: '#ff4f93',
@@ -14,6 +14,6 @@ export const pinkThemeDark = {
     tertiary80: '#eaeaeacc',
     tertiary70: '#eaeaeab3',
     tertiary50: '#eaeaea80',
-   
+    aboutimg2: pinkThemegirl,
    
 }

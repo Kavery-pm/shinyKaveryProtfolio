@@ -11,7 +11,7 @@ import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import CloseIcon from '@material-ui/icons/Close';
 import { useState } from 'react';
-import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
+import {  makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((t) => ({
     navMenu: {
         fontSize: '2.5rem',

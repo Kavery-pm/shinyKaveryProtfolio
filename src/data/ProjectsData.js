@@ -1,5 +1,6 @@
 import FilterCountry from '../assets/projectImage/FilterCountry.png';
 import FoodApp from '../assets/projectImage/FoodApp.png';
+import Protfoili from '../assets/projectImage/Protfoili.png';
 
 export const ProjectsData = [
     {
@@ -19,4 +20,14 @@ export const ProjectsData = [
     code: 'https://github.com/Kavery-pm/ReactFoodOrderApp',
     demo: 'https://musical-alfajores-e260c2.netlify.app/',
     image: FoodApp
-}]
+},
+{
+    id: 3,
+    projectName: 'Protfolio Website',
+    projectDesc: 'Protfolio website developed using react,material ui',
+    tags: ['React', 'HTML' ,'CSS', 'material-ui'],
+    code: 'https://github.com/Kavery-pm/shinyKaveryProtfolio',
+    demo: 'https://shiny-kavery-protfolio-kavery-pm.vercel.app/',
+    image:Protfoili
+},
+]

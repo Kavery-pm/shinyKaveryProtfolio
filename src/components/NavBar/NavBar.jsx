@@ -233,7 +233,7 @@ const handleDrawerClose = () => {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink className={classes.navLink}
                                 to='/#education'
                                 smooth={true}
@@ -249,7 +249,7 @@ const handleDrawerClose = () => {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink className={classes.navLink}

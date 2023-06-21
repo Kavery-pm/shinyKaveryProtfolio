@@ -1,2 +1,3 @@
 import pinkThemegirl from '../assets/svg/pinkTheme-girl.svg';
-export  {pinkThemegirl};
+import contactsPink from '../assets/svg/contacts/contactsPink.svg'
+export  {pinkThemegirl,contactsPink};

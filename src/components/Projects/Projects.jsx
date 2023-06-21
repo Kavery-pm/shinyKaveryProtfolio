@@ -1,6 +1,9 @@
 import { ProjectsData } from '../../data/ProjectsData.js'
 import { pinkThemeDark as theme } from "../../theme/theme.js";
 import { Link } from 'react-router-dom'
+import './Projects.css';
+import SingleProject from './SingleProject.jsx';
+
 const Projects = ()=>{
     return (
         <>
@@ -12,7 +15,16 @@ const Projects = ()=>{
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
                             {ProjectsData.slice(0, 4).map(project => (
-                              <h1>Projecct</h1>))}
+                            <SingleProject 
+                            theme={theme}
+                            key={project.id}
+                            id={project.id}
+                            name={project.projectName}
+                            desc={project.projectDesc}
+                            tags={project.tags}
+                            code={project.code}
+                            demo={project.demo}
+                            image={project.image} />))}
                         </div> 
 
                         {ProjectsData.length > 3 && (

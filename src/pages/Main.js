@@ -5,6 +5,7 @@ import Landing from "../components/Landing/Landing";
 import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import Projects from "../components/Projects/Projects";
+import Contacts from "../components/Contacts/Contacts";
 const Main = ()=>{
     return (
         <>
@@ -16,6 +17,7 @@ const Main = ()=>{
         <About/>
         <Skills/>
         <Projects/>
+        <Contacts/>
         </>
     )
 }

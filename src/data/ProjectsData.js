@@ -1,6 +1,7 @@
 import FilterCountry from '../assets/projectImage/FilterCountry.png';
 import FoodApp from '../assets/projectImage/FoodApp.png';
 import Protfoili from '../assets/projectImage/Protfoili.png';
+import todo from '../assets/projectImage/todo.png';
 
 export const ProjectsData = [
     {
@@ -23,6 +24,16 @@ export const ProjectsData = [
 },
 {
     id: 3,
+    projectName: 'Trello-Inspired Todo List ',
+    projectDesc: 'Trello inspired todo-list developed with React, TypeScript, Styled Components, and Redux. this responsive solution empowers you to add, edit, and delete items effortlessly. It provides intuitive drag and drop functionality for seamless organization and you can also Customize your Todo List with color theme options, reflecting your personal style. ',
+    tags: ['React', 'HTML' ,'CSS', 'typescript','redux-toolkit','styled components'],
+    code: 'https://github.com/Kavery-pm/trello-todo',
+    demo: 'https://trello-todo-ten.vercel.app/',
+    image: todo
+},
+
+{
+    id: 4,
     projectName: 'Protfolio Website',
     projectDesc: 'Protfolio website developed using react,material ui',
     tags: ['React', 'HTML' ,'CSS', 'material-ui'],

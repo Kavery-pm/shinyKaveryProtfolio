@@ -1,6 +1,7 @@
 import FilterCountry from '../assets/projectImage/FilterCountry.png';
 import FoodApp from '../assets/projectImage/FoodApp.png';
 import Protfoili from '../assets/projectImage/Protfoili.png';
+import ReactProtfolio from '../assets/projectImage/react-protfolio.png';
 import todo from '../assets/projectImage/todo.png';
 
 export const ProjectsData = [
@@ -31,10 +32,19 @@ export const ProjectsData = [
     demo: 'https://trello-todo-ten.vercel.app/',
     image: todo
 },
-
 {
     id: 4,
     projectName: 'Protfolio Website',
+    projectDesc: 'Protfolio website developed using react and changing mode functionality',
+    tags: ['React', 'HTML' ,'SCSS', 'material-ui'],
+    code: 'https://portfolio-template-kappa-khaki.vercel.app/',
+    demo: 'https://github.com/Kavery-pm/portfolioTemplate',
+    image: ReactProtfolio
+},
+
+{
+    id: 5,
+    projectName: 'Portfolio Website',
     projectDesc: 'Protfolio website developed using react,material ui',
     tags: ['React', 'HTML' ,'CSS', 'material-ui'],
     code: 'https://github.com/Kavery-pm/shinyKaveryProtfolio',

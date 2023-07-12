@@ -27,7 +27,7 @@ const Projects = ()=>{
                             image={project.image} />))}
                         </div> 
 
-                        {ProjectsData.length > 3 && (
+                        {/* {ProjectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
                                     <button >
@@ -36,7 +36,7 @@ const Projects = ()=>{
                                     </button>
                                 </Link>
                             </div>
-                        )}
+                        )} */}
                     </div>
                 </div>
             )}

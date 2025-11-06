@@ -2,7 +2,7 @@ import FilterCountry from '../assets/projectImage/FilterCountry.png';
 import FoodApp from '../assets/projectImage/FoodApp.png';
 import Protfoili from '../assets/projectImage/Protfoili.png';
 import ReactProtfolio from '../assets/projectImage/react-protfolio.png';
-import TicTacToe from '../assets/projectImage/tictactoe.png';
+import TicTacImage from '../assets/projectImage/tictactoe.png';
 import todo from '../assets/projectImage/todo.png';
 
 export const ProjectsData = [
@@ -13,7 +13,7 @@ export const ProjectsData = [
         tags: ['React', 'HTML', 'CSS', 'material-ui'],
         code: 'https://github.com/Kavery-pm/TicTacToe',
         demo: 'https://tic-tac-toe-three-nu-71.vercel.app/',
-        image: TicTacToe
+        image: TicTacImage
     },
     {
         id: 2,

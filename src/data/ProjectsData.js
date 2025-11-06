@@ -2,7 +2,7 @@ import FilterCountry from '../assets/projectImage/FilterCountry.png';
 import FoodApp from '../assets/projectImage/FoodApp.png';
 import Protfoili from '../assets/projectImage/Protfoili.png';
 import ReactProtfolio from '../assets/projectImage/react-protfolio.png';
-import TicTacToe from '../assets/projectImage/TicTacToe.png';
+import TicTacToe from '../assets/projectImage/tictactoe.png';
 import todo from '../assets/projectImage/todo.png';
 
 export const ProjectsData = [
